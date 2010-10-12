@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Exercice sur les listview</string>
+    <string name="app_name">ListView</string>
+    <color name="app_color">#FFFFFF</color>
+    <color name="text_color">#000000</color>
+</resources>

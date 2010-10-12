@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@color/app_color">
+     
+     <ScrollView android:layout_marginBottom="1dip" android:id="@+id/ScrollView01" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <RelativeLayout android:layout_marginTop="-1dip" android:gravity="bottom" android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="@color/app_color">
+	        <ImageView android:id="@+id/ImageView01" android:layout_height="wrap_content" android:src="@drawable/eqx_h_300x73" android:background="@color/app_color" android:layout_width="fill_parent"></ImageView>
+			<ListView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/produitListView01" android:background="@color/app_color" android:layout_below="@+id/ImageView01"></ListView>
+			<ImageView android:id="@+id/ImageView02" android:layout_height="wrap_content" android:src="@drawable/eqx_h_300x73" android:layout_below="@+id/produitListView01" android:background="@color/app_color" android:layout_width="fill_parent"></ImageView>
+			<ListView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/produitListView02" android:background="@color/app_color" android:layout_below="@+id/ImageView02"></ListView>
+			<ImageView android:id="@+id/ImageView03" android:layout_height="wrap_content" android:src="@drawable/eqx_h_300x73" android:layout_below="@+id/produitListView02" android:background="@color/app_color" android:layout_width="fill_parent"></ImageView>
+			<ListView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/produitListView03" android:background="@color/app_color" android:layout_below="@+id/ImageView03"></ListView>
+			<ImageView android:id="@+id/ImageView04" android:layout_height="wrap_content" android:src="@drawable/eqx_h_300x73" android:background="@color/app_color" android:layout_width="fill_parent" android:layout_below="@+id/produitListView03" ></ImageView>
+			<ListView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/produitListView04" android:background="@color/app_color" android:layout_below="@+id/ImageView04"></ListView>
+        </RelativeLayout>  
+     </ScrollView>
+</LinearLayout>
